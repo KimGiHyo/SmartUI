@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hello{
+
+    text-shadow: 5px 5px 5px blue;
+}
+.worldArtEffect{
+    color: white;
+    text-shadow: 0px 0px 3px red;
+}
+.threeDEffect{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.multi_effect{
+    color: white;
+    text-shadow: 0px 0px 2px red,
+                2px 2px 3px black,
+                2px 2px 25px darkblue;
+}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+div {
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: violet;
+}
+/* div:hover{
+    position:relative;
+    top:10px;
+    left: 10px;
+    background-color: springgreen;
+} */
+
+/* nth-child는  해당하는 셀렉터에서 몇 번째인지를 아는거 
+odd는 홀수 even은 짝수 숫자를 넣으면 해당하는 번 째가 되겠지 */
+div:nth-child(odd) {
+    background-color:slateblue;
+}
+div:nth-child(even) {
+    background-color:red;
+}
+div:nth-child(4){
+    background-color: pink;
+}
+
+div:nth-child(odd):hover {
+    position: relative;
+    background-color:springgreen;
+    bottom: 10px;
+    right: 10px;
+}
+div:nth-child(even):hover {
+    position: relative;
+    background-color:springgreen;
+    top: 10px;
+    left: 10px;
+}
