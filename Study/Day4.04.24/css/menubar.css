@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/* .inline-list{
+    display: inline-block;
+    width: 140px;
+    margin: 0;
+    padding: 0;
+} */
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* 또는 이렇게 해도 됨 */
+nav>ul>li{
+      display: inline-block;
+    /* width: 140px; */
+    width: calc(25% - 5px);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: beige;
+}
