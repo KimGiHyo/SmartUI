@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@media(min-width:800px){
+    p{
+        font-size: 150px;
+        font-weight: bold;
+    }   
+}
+
+@media(min-width:500px) and(max-width:799px) {
+    p{
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:499px){
+    p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+.text-bold{
+    font-weight: bold;
+}
