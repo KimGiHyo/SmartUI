@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="/Study/Day3_04.23/css/day3_main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <title>5회차 학습 내용</title>
+    <title>3회차 학습내용</title>
+    
 </head>
 <body>
     <nav class="navbar navbar-inverse" id="upper">
@@ -21,9 +22,9 @@
             <li><a href="/Study/study.html">Home</a></li>
             <li> <a href="/Study/Day2_04.17/Basic_Tag">1회차 </a></li>
             <li> <a href="/Study/Day2_04.18/day2_main.html">2회차</a></li>
-            <li> <a href="/Study/Day3_04.23/html/day3_main.html">3회차</a></li>
+            <li class="active"> <a href="/Study/Day3_04.23/html/day3_main.html">3회차</a></li>
             <li> <a href="/Study/Day4.04.24/day4_Main.html">4회차</a></li>
-            <li class="active"> <a href="/Study/Day5.04.30/html/day5_main.html">5회차</a></li>
+            <li> <a href="/Study/Day5.04.30/html/day5_main.html">5회차</a></li>
             <li> <a href="#">6회차</a></li>
             <li> <a href="/Study/Day7.05.08/html/day7_Main.html">7회차</a></li>
             <li> <a href="/Study/Day8.05.09/html/day8_Main.html">8회차</a></li>
@@ -37,121 +38,113 @@
         <hr>
         <ul class="list-group">
             
-            <a href="#bootstrap_ex01">
-                <li class="list-group-item">bootstrap_ex01 예제
+            <a href="#text-shadow">
+                <li class="list-group-item">text-shadow 예제
             </li></a>
-            <a href="#bootstrap_form">
-                <li class="list-group-item">bootstrap_form 예제</li>
+            <a href="#box-shadow-cursor1">
+                <li class="list-group-item">box-shadow + cursor 예제</li>
             </a>
-            <a href="#bootstrap_image">
-                <li class="list-group-item">bootstrap_image 예제</li>
+            <a href="#display1">
+                <li class="list-group-item">display 예제</li>
             </a>
-            <a href="#bootstrap_practice">
-                <li class="list-group-item">bootstrap_practice 예제</li>
+            <a href="#position:relative">
+                <li class="list-group-item">position:relative 예제</li>
             </a>
-            <a href="#bootstrap_google">
-                <li class="list-group-item">bootstrap.google 예제</li>
+            <a href="#position:fix">
+                <li class="list-group-item">position:fix 예제</li>
             </a>
-            <a href="#bootstrap_table">
-                <li class="list-group-item">bootstrap.table 예제</li>
+            <a href="#float1">
+                <li class="list-group-item">float 예제</li>
             </a>
-            <a href="#media_ex01">
-                <li class="list-group-item">media_ex01 예제</li>
+            <a href="#zIndex">
+                <li class="list-group-item">zIndex 예제</li>
             </a>
         </ul>
+    </div>
+    <hr>
+    <div id="text-shadow">
+        <h3>
+            <i class="glyphicon glyphicon-user"></i>
+            text-shadow 예제
+            <a href="#upper">
+                <button class="btn btn-default">
+                    <i class="glyphicon glyphicon-chevron-up"></i>
+                </button>
+            </a> 
+        </h3>
+            <iframe src="text_shadow_ex.html" frameborder="0" width="100%" id="text-shadow"></iframe>
     </div>
 
     <hr>
 
-    <div id="bootstrap_ex01">
-            <h3>
-                <i class="glyphicon glyphicon-user"></i>
-                bootstrap_ex01 예제
-                <a href="#upper">
-                    <button class="btn btn-default">
+    <div id="box-shadow-cursor1">
+        <h3> 
+            box-shadow + cursor 예제
+            <a href="#upper">
+                <button class="btn btn-default">
                         <i class="glyphicon glyphicon-chevron-up"></i>
-                    </button>
-                </a> 
-            </h3>
-                <iframe src="bootstrap_ex01.html" frameborder="0" width="100%" id="text-shadow"></iframe>
-        </div>
-    
-        <hr>
-    
-        <div id="bootstrap_form">
-            <h3> 
-                bootstrap_form 예제
-                <a href="#upper">
-                    <button class="btn btn-default">
-                            <i class="glyphicon glyphicon-chevron-up"></i>
-                    </button>
-                </a> 
-            </h3>
-            <iframe src="bootstrap_form.html" frameborder="0" width="100%" ></iframe>
-        </div>
-    
-        <hr>
-    
-        <div id="bootstrap_image">
-            <h3>
-                bootstrap_image 예제
-                <a href="#upper">
-                    <button class="btn btn-default">
-                        <i class="glyphicon glyphicon-chevron-up"></i>
-                    </button>
-                </a> 
-            </h3>
-            <iframe src="bootstrap_image.html" frameborder="0" width="100%"></iframe>
-        </div>
-       
-        <hr>
-    
-        <div id="bootstrap_practice">
-            <h3>
-                bootstrap_practice 예제
-                <a href="#upper">
-                    <button class="btn btn-default">
-                        <i class="glyphicon glyphicon-chevron-up"></i>
-                    </button>
-                </a>   
-            </h3>
-            <iframe src="bootstrap_practice.html" frameborder="0" width="100%" ></iframe>
+                </button>
+            </a> 
+        </h3>
+        <iframe src="box_shadow_cursor_ex02.html" frameborder="0" width="100%" ></iframe>
         </div>
 
-        <hr>
-        
-        <div id="bootstrap_google">
+    <hr>
+
+        <div id="display1">
             <h3>
-                bootstrap_google 예제
+                display 예제
                 <a href="#upper">
                     <button class="btn btn-default">
                         <i class="glyphicon glyphicon-chevron-up"></i>
                     </button>
-                </a>   
+                </a> 
             </h3>
-            <iframe src="bootstrap_google.html" frameborder="0" width="100%" id="position:fix"></iframe>
+            <iframe src="display_ex.html" frameborder="0" width="100%"></iframe>
         </div>
-        <div id="bootstrap_table">
+        <div id="position:relative">
             <h3>
-                bootstrap_table 예제
+                position:relative 예제
                 <a href="#upper">
                     <button class="btn btn-default">
                         <i class="glyphicon glyphicon-chevron-up"></i>
                     </button>
                 </a>   
             </h3>
-            <iframe src="bootstrap_table.html" frameborder="0" width="100%" ></iframe>
+            <iframe src="position__relative_ex.html" frameborder="0" width="100%" ></iframe>
         </div>
-        <div id="media_ex01">
+        <div id="position:fix">
             <h3>
-                media_ex01 예제
+                position:fix 예제
                 <a href="#upper">
                     <button class="btn btn-default">
                         <i class="glyphicon glyphicon-chevron-up"></i>
                     </button>
                 </a>   
             </h3>
-            <iframe src="media_ex01.html" frameborder="0" width="100%" ></iframe>
+            <iframe src="position_fixed_ex.html" frameborder="0" width="100%" id="position:fix"></iframe>
+        </div>
+        <div id="float1">
+            <h3>
+                float 예제
+                <a href="#upper">
+                    <button class="btn btn-default">
+                        <i class="glyphicon glyphicon-chevron-up"></i>
+                    </button>
+                </a>   
+            </h3>
+            <iframe src="Practice_google_account.html" frameborder="0" width="100%" ></iframe>
+        </div>
+        <div id="zIndex">
+            <h3>
+                zIndex 예제
+                <a href="#upper">
+                    <button class="btn btn-default">
+                        <i class="glyphicon glyphicon-chevron-up"></i>
+                    </button>
+                </a>   
+            </h3>
+            <iframe src="zIndex.html" frameborder="0" width="100%" ></iframe>
         </div>
 </body>
 </html>

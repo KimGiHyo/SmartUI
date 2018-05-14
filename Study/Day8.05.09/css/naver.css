@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+/* 클래스 css */
+.container {
+    max-width: 1100px;
+    padding: 0 10px 10px 10px;
+}
+.container .row {
+    margin-top: 10px;
+}
+.container .row .login {
+    margin-top: 0px;
+}
+.navbar .container {
+       max-width: 1100px;
+   }
+
+.navbar .navbar-nav .nav-item-green{
+    color: #00c73c;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-item-black{
+    color: black;
+    font-weight: bold;
+}
+
+.row {
+    margin: 0px;
+}
+
+.left-box{
+    width: 745px;
+
+    padding-right: 5px;
+
+}
+
+.right-box{
+    width: 335px;
+
+    padding-left: 5px;
+}
+
+.input-info {
+    width: 148px;
+    height: 68px;
+    margin: 20px 0 0 15px;
+}
+.btn-login {
+    width: 67px;
+    height: 67px;
+    margin: 20px 0 0 0px;
+    background-color: #00c73c;
+    font-size: 12px;
+    color: white;
+    font-weight: 900px;
+}
+.security {
+    width: 77px;
+    height: 67px;
+    margin: 20px 0 0 5px;
+    font-size: 11px;
+    color: #888;
+}
+.login{
+    background-color: white;
+    height: 120px;
+    border: solid 1px #dee3eb;
+}
+.text-login{
+    margin-top: 26px;
+    text-align: center;
+}
+.input-login {
+    width: 148px;
+    height: 34px;
+    font-size: 12px;
+}
+.input-pw{
+    margin-top: -1px;
+    width: 148px;
+    height: 34px;
+    font-size: 12px;
+}
+.btn-ip{
+    width: 77px;
+    height: 34px;
+    color: #888;
+    background-color: white;
+    border: solid #f1f3f6 1px;
+}
+.btn-tmp-login{
+    width: 77px;
+    height: 34px;
+    color: #888;
+    background-color: white;
+    border: solid #f1f3f6 1px;
+    margin-top: -1px;
+}
+.news{
+    width: 740px;
+    height: 46px;
+    background-color: white;
+    border: solid 1px #dee3eb;
+    padding: 10px 0 0 16px;
+}
+.news-stand{
+    width: 740px;
+    height: 246px;
+    background-color: white;
+    border: solid 1px #dee3eb;
+    margin-top: 10px;
+}
+.news h3,
+.news-stand h3{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+.news-detail {
+    font-size: 12px;
+    color: black;
+}
+.news-detail:hover {
+    color: black;
+}
+.lt{
+    color: gray;
+    font-size: 17px;
+}
+.lt:hover{
+    color: gray;
+    text-decoration: none;
+}
+.news-font-green {
+    font-size: 13px;
+    color: #00c73c;
+    font-weight: bold;
+    margin: 0 2px 0 2px;
+}
+.news-font-gray {
+    font-size: 13px;
+    color: #666;
+    font-weight: bold;
+    margin: 0 2px 0 2px;
+}
+.news-font-green:hover{
+    text-decoration: none;
+    color: #00a74c;
+}
+.news-font-gray:hover{
+    text-decoration: none;
+    color: black;
+}
+.naver-tag{
+    float: right;
+    margin-right: 15px;
+}
+.news-stand-headline{
+    height: 45px;
+    border: solid 1px #f1f3f6;
+    font-size: 14px;
+    padding: 10px 0 0 16px;
+}
+.news-stand-kind{
+    height: 200px;
+    border: solid 1px #f1f3f6;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none; 
+    /* 스타일은 그걸 아예 안그리겠다 */
+}
+.news-stand-text{
+    color: black;
+}
+.news-stand-text:hover{
+    text-decoration: none;
+}
+.text-decoration-none:hover{
+    text-decoration: none;
+}
+.bar{
+    color: gray;
+    font-size: 16px;
+    margin: 0 5px 0 5px;
+}
+.font-14{
+    font-size: 14px;
+}
+.container .kind-row{
+    height: 67px;
+    margin: 0px;
+    /* 그냥 row보다 조상이 있는 row가 더 강하다 */
+}
+.kind-col{
+    width: 123px;
+    border: solid 1px #f1f3f6;
+    padding: 21px 0 22px 0;
+    text-align: center;
+}
+
+
+
+.info{
+    height: 142px;
+    background-color: white;
+    border: solid 1px #dee3eb;
+}
+.date{
+    height: 34px;
+    border: solid 1px #888;
+}
+.date h3{
+    display: inline-block;
+}
+.stock{
+    height: 106px;
+}
+.add{
+    margin-top: 10px;
+    height: 150px;
+}
+.date-detail{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.date-week{
+    font-size: 14px;
+    color: black;
+}
+.etc{
+    font-size: 14px;
+    color: gray;
+}
+.kospy{
+    display: inline-block;
+    width: 160px;
+    height: 73px;
+    padding: 16px 0 8px 15px;
+}
+.kospy:hover{
+    text-decoration: none;
+}
+.kosdak{
+    display: inline-block;
+    width: 160px;
+    height: 73px;
+    padding: 16px 0 8px 9px;
+}
+.kosdak:hover{
+    text-decoration: none;
+}
+.dt{
+    font-size: 12px;
+    color: #888;
+}
+.dd{
+    font-size: 24px;
+    line-break: 31px;
+    display: inline-block;    
+    color: black;
+}
+.dd:hover{
+    text-decoration: underline;
+}
+.dd-detail{
+    font-size: 12px;
+    line-break: 31px;
+}
+.stock-search{
+    height: 30px;
+}
+.input-stock-search{
+    height: 22px;
+    width: 120px;
+    margin-left: 15px;
+    border: solid 2px #007bff;
+    border-right: none;
+}
+.a-btn{
+    background-color: #8b8b8b;
+    display: inline-block;
+    border: none;
+    width: 22px;
+}
+.stock-search .row{
+    margin: 0px;
+}
+
+/* 태그 css */
+body {
+    background-color:gray;
+}
+button{
+    padding: 0px;
+}
+dd{
+    display: inline-block;
+}
