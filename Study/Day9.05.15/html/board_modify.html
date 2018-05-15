@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/global.css">
+    <title>새 게시물 등록</title>
+</head>
+<body>
+    <div class="container">
+        <form action="./board_modify.html" method="" class="signup-box">
+            <h4>글 수정</h4>
+            <label for="usr">제목</label>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="제목" disabled>   
+            </div>
+            <label for="usr">내용</label>
+            <textarea class="form-control" rows="15" id="comment" disabled></textarea> <!--w3school에 inputs 밑에 보면 textarea 있음-->
+            
+            <button type="submit" class="btn btn-warning login-text comp" style="float: right">수정완료</button>
+            <a href="./boardList.html"><button type="button" class="btn btn-warning login-text cancel" style="float: right">취소</button></a>
+        </form>
+    </div>
+</body>
+</html>
